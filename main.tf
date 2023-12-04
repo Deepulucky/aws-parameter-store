@@ -20,7 +20,7 @@ variable "params" {
     { name = "roboshop.dev.cart.catalogue_port", value = "80", type = "String" },
 
     { name = "roboshop.dev.catalogue.mongo", value = "true", type = "String" },
-    { name = "roboshop.dev.catalogue.mongo_url", value = "mongodb://mongodb-{{ env }}.devopsd7.online:27017/catalogue", type = "String" },
+    { name = "roboshop.dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.devopsd7.online:27017/catalogue", type = "String" },
     
     { name = "roboshop.dev.payment.cart_host", value = "cart-dev.devopsd7.online", type = "String" },
     { name = "roboshop.dev.payment.cart_port", value = "80", type = "String" },
