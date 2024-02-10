@@ -91,9 +91,9 @@ variable "params" {
     { name = "roboshop.prod.rabbitmq.amqp_pass", value = "roboshop123", type = "SecureString" },
     { name = "roboshop.prod.mysql.password", value = "roboshop123", type = "SecureString" },
     { name = "roboshop.prod.docdb.password", value = "roboshop123", type = "SecureString" },
-    { name = "roboshop.prod.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123@docdb-dev.cluster-cfw4cgmy43ga.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false", type = "SecureString" },
-    { name = "roboshop.prod.catalogue.docdb_endpoint", value = "docdb-dev.cluster-cfw4cgmy43ga.us-east-1.docdb.amazonaws.com", type = "String" },
-    { name = "roboshop.prod.user.mongo_url", value = "mongodb://roboshop:roboshop123@docdb-dev.cluster-cfw4cgmy43ga.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false", type = "SecureString" },
+    { name = "roboshop.prod.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123@docdb-prod.cluster-cfw4cgmy43ga.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false", type = "SecureString" },
+    { name = "roboshop.prod.catalogue.docdb_endpoint", value = "docdb-prod.cluster-cfw4cgmy43ga.us-east-1.docdb.amazonaws.com", type = "String" },
+    { name = "roboshop.prod.user.mongo_url", value = "mongodb://roboshop:roboshop123@docdb-prod.cluster-cfw4cgmy43ga.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false", type = "SecureString" },
     { name = "roboshop.prod.user.docdb_endpoint", value = "docdb-prod.cluster-cfw4cgmy43ga.us-east-1.docdb.amazonaws.com", type = "String" },
 
 
